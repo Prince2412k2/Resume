@@ -1,11 +1,11 @@
-#import "@preview/guided-resume-starter-cgc:2.0.0": *
+#import "./templates/resume.template.typ": *
 
 #show: resume.with(
   author: "Prince Patel",
   location: "Ahmedabad,Gujarat,India",
   contacts: (
     [#link("mailto:princempate.dev@gmail.com")[Email]],
-    [#link("https://portfolio2412.vercel.app")[Website]],
+    [#link("https://prince2412k2.github.io/Portfolio/")[Website]],
     [#link("https://github.com/Prince2412k2")[GitHub]],
     [#link("https://www.linkedin.com/in/prince2412k2")[LinkedIn]],
   ),

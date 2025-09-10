@@ -174,3 +174,22 @@ Experience section formatting logic.
   )
   details
 }
+
+#let project(
+  role: "",
+  project: "",
+  summary: "",
+) = {
+    grid(
+      columns: (auto, 1fr),
+      align(left)[
+        #strong[#role] | #emph[#project]
+        #{
+          if summary != "" [
+            \ #emph[#summary]
+          ]
+        }
+      ],
+    )
+}
+
