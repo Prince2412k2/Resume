@@ -76,6 +76,7 @@
   role: "ML-AI Associate",
   project: "Training",
   date: "Aug 2024 - Present",
+  location: "Gateway Corp.",
   summary: "Hands-on development across full-stack applications, APIs, and GenAI integration.",
   details: [
     - Built Progressive Web Apps with React and implemented server-side rendering using Next.js.
