@@ -14,7 +14,7 @@
 
 = Education
 #edu(
-  institution: "SilverOak University",
+  institution: "SilverOak University | 9.1 GPA",
   date: "March 2025",
   location: "Ahmedabad, Gujarat, India",
   degrees: (
@@ -61,7 +61,7 @@
 = Experience
 #exp(
   role: "ML Engineering Intern",
-  project: "Book-Wizard",
+  project: "",
   date: "Nov 2024 - Mar 2025",
   location: "Innoventa Technologies",
   summary: "full-stack GenAI project with deployment",
@@ -74,7 +74,7 @@
 
 #exp(
   role: "ML-AI Associate",
-  project: "Training",
+  project: "",
   date: "Aug 2024 - Present",
   location: "Gateway Corp.",
   summary: "Hands-on development across full-stack applications, APIs, and GenAI integration.",
@@ -87,6 +87,12 @@
 
 
 = Projects
+
+#project(
+  role: link("https://github.com/Prince2412k2/social-media.git")[Social-Media],
+  project: "Full-stack social media app with Django (DRF) and React",
+  summary: "Integrated social logins via Google and GitHub using Django Allauth. Implemented live chat with WebSockets and rate limiting. Configured PostgreSQL as the database and Boto3-compatible storage for media."
+)
 #project(
   role: link("https://github.com/Prince2412k2/vcs.git")[VCS],
   project: "Git-like Version Control System",
