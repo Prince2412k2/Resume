@@ -177,13 +177,14 @@ Experience section formatting logic.
 
 #let project(
   role: "",
+  Live:"",
   project: "",
   summary: "",
 ) = {
     grid(
       columns: (auto, 1fr),
       align(left)[
-        #strong[#role] | #emph[#project]
+        #strong[#role] | #emph[#project] | #strong[#Live]
         #{
           if summary != "" [
             \ #emph[#summary]

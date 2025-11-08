@@ -99,14 +99,15 @@
   summary: "Implemented core Git functionality in Python, demonstrating systems programming and backend design."
 )
 
-#project(
-  role: link("https://github.com/Prince2412k2/Noter.git")[Noter],
-  project: "Terminal Note-taking App",
-  summary: "Developed with Python, curses, and DuckDB; integrates with Git for versioned, searchable notes directly in the terminal."
-)
+// #project(
+//   role: link("https://github.com/Prince2412k2/Noter.git")[Noter],
+//   project: "Terminal Note-taking App",
+//   summary: "Developed with Python, curses, and DuckDB; integrates with Git for versioned, searchable notes directly in the terminal."
+// )
 
 #project(
   role: link("https://github.com/Prince2412k2/Ecom.git")[Ecom],
+  Live:link("https://ecom-sand-omega.vercel.app/login")[Live!],
   project: "Full-Stack E-commerce Platform",
   summary: "Built using Next.js and Tailwind with REST APIs; demonstrates modern frontend design and backend integration."
 )
@@ -119,7 +120,14 @@
 
 #project(
   role: link("https://github.com/Prince2412k2/static_site_gen.git")[Static Site Generator],
+  Live: link("https://prince2412k2.github.io/static_site_gen/")[Live!],
   project: "Markdown to HTML Converter",
   summary: "Wrote a static site generator in Python to convert Markdown into styled HTML, emphasizing automation and tooling."
 )
 
+#project(
+  role: link("https://github.com/Prince2412k2/genai_blog.git")[MDMuse],
+  project: "GenAI based blog site",
+  Live:link("https://md-muse.vercel.app")[Live!],
+  summary: "Developed a full-stack blogging platform with Supabase auth, a BlockNote-based rich text editor, and AI-powered content/tag generation. Built a responsive React + TypeScript frontend and Supabase-backed backend with Edge Functions for content processing."
+)
