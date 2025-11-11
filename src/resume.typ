@@ -41,6 +41,8 @@
     [Next.js],
     [Tailwind],
     [Docker],
+    [n8n],
+    [CI/CD],
     [Git | GitHub],
     [DuckDB],
     [SQLite],
