@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo -e "\033[96m- Compiling pdf and png\n\033[0m "
+
+./tool --compile
+
+echo -e "\033[96m- Staging static files\n\033[0m "
+
+git add -A

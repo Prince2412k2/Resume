@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-typst compile src/resume.typ docs/resume.png
-typst compile src/resume.typ docs/resume.pdf

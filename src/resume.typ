@@ -90,11 +90,20 @@
 
 = Projects
 
+// #project(
+//   role: link("https://github.com/Prince2412k2/social-media.git")[Social-Media],
+//   project: "Full-stack social media app with Django (DRF) and React",
+//   summary: "Integrated social logins via Google and GitHub using Django Allauth. Implemented live chat with WebSockets and rate limiting. Configured PostgreSQL as the database and Boto3-compatible storage for media."
+// )
+
 #project(
-  role: link("https://github.com/Prince2412k2/social-media.git")[Social-Media],
-  project: "Full-stack social media app with Django (DRF) and React",
-  summary: "Integrated social logins via Google and GitHub using Django Allauth. Implemented live chat with WebSockets and rate limiting. Configured PostgreSQL as the database and Boto3-compatible storage for media."
+  role: link("https://github.com/Prince2412k2/noder.git")[Noder],
+  Live: link("https://nodering.netlify.app/")[Live!],
+  project: "A cloud-based workflow automation platform inspired by n8n.",
+  summary: "A cloud-based AI automation platform inspired by n8n, built with Next.js, tRPC, Better Auth, shadcn/ui, and Polar. It lets users create workflows with API calls, OAuth integrations, webhooks, and AI-powered steps—all fully managed in the cloud with a fast, modern interface."
 )
+
+
 #project(
   role: link("https://github.com/Prince2412k2/vcs.git")[VCS],
   project: "Git-like Version Control System",
